@@ -50,12 +50,13 @@ struct NetworkStats
 };
 
 constexpr char NETWORK_STATS_PATH[] = "/proc/net/dev";
-constexpr char NETWORK_STATS_DATA[] = "/tmp/dNetworkStatsData.txt"
-
+constexpr char NETWORK_STATS_DATA[] = "/tmp/dNetworkStatsData.txt";
+/*
 class NetworkStats
 {
     NetworkStats() = delete;
 };
+*/
 
 } // namespace network
 } // namespace monitor
